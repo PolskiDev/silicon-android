@@ -1,12 +1,12 @@
-# Silicon Server Development Kit
+# Silicon Server RepoKit
 ###### By Gabriel Margarido
   
   
 Server homepage:
-http://localhost/silicon-server
+http://yourhost.com/silicon-server
   
 Publishing/Login page:
-http://localhost/silicon-server/login
+http://yourhost.com/silicon-server/login
   
   
   
@@ -22,14 +22,14 @@ and define its username and password (paste it's URL inside $host - "sqlConn.php
   
   
 (1) Create Main Table:
-http://localhost/silicon-server/index.php
+http://yourhost.com/silicon-server/index.php
   
 (2) Create Users Table:
-http://localhost/silicon-server/login/first-access.php
+http://yourhost.com/silicon-server/login/first-access.php
   
   
 (3.1) Go to login page:
-http://localhost/silicon-server/login
+http://yourhost.com/silicon-server/login
   
 (3.2) Default username and passcode
 User: root
@@ -37,7 +37,7 @@ Passcode: alpine
   
   
 (4) Change root passcode
-http://localhost/silicon-server/login/change-passcode.html
+http://yourhost.com/silicon-server/login/change-passcode.html
   
     Old password: alpine
     New password:  __[It's your choice]__
@@ -49,7 +49,7 @@ http://localhost/silicon-server/login/change-passcode.html
 **How to add sources to Silicon**
 1. Open Silicon App
 2. Click on "Sources"
-3. Paste: http://silicon-repo.gabrielmargarido.org
+3. Paste: http://gabrielmargarido.org/silicon-server
 4. And click on "Add source"
   
   
