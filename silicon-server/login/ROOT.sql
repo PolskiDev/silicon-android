@@ -1,0 +1,1 @@
+INSERT INTO Users (username, passcode) VALUES ('root','alpine');

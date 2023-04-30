@@ -1,0 +1,66 @@
+
+1. Install Android Studio IDE for your Operating System:
+	- GNU/Linux
+	- Windows
+	- Apple macOS
+
+
+2. Import the outputed project inside Android Studio:
+	
+	File > New > Import Project (then select "android"
+	outputed folder inside "data/out") > OK;
+
+	If an error occured try:
+		Install Build Tools (X.X.X) and sync project;
+	
+	Else:
+		Uninstall and reinstall Android Studio
+		(version 4.1.2) on your Operating System;
+
+
+3. Build an executable android package (APK):
+
+	PREPAIR THE BUNDLER:
+		Build > Generate Signed Bundle / APK >
+		APK > [Generate a key for your application]
+		> Build Variants: release > V1 (JAR Signature)
+		> Finish;
+
+	BUILD THE APPLICATION:
+		Build > Build Bundle(s) / APK(s);
+
+
+4. Distribute APK bytecode file:
+	- Get it from: android/app/build/outputs/apk/*.apk;
+	- Upload to the internet or to Google Play Store;
+
+	- Install as a normal software or your Android
+	  Operating System (you can also enable
+	  "unknown sources" option on your settings
+	  to install your Android application).
+
+
+*In case of doubts you can search by
+these terms on the internet:
+
+- Generate APK
+- Android Studo
+- Generate key
+- Build on Android Studio
+- APK
+- Output projects
+- Import project
+- Import
+- Executable APK
+- ART Bytecode
+- Uninstall Android Studio
+- Install Android Studio
+- Export project
+- Bundle
+- Bundler
+- Android Bundler
+- Android Studio 4.1.2
+
+
+Gabriel Margarido,
+April 18th 2021

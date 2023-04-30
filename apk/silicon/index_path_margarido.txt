@@ -1,0 +1,14 @@
+FULL PATH FOR INDEX FILE:
+>> KoruFX/app/src/main/assets/index.html {
+	#-> "index.html", "android.png";
+}
+
+
+FULL PATH FOR APK BYTECODES:
+>> KoruFX/app/build/outputs/apk {
+	#-> (*.apk): "application.apk",
+	"program.apk", "build.apk"... ;
+}
+
+Gabriel Margarido,
+April 18th 2021

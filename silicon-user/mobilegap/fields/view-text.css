@@ -1,0 +1,67 @@
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+/* Activated TextView */
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}  
+input[type="text"]:hover {
+    border: 3px solid #555;
+}
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}  
+input[type="password"]:hover {
+    border: 3px solid #555;
+}
+
+
+
+/* Animated TextView */
+.animated-android-textview {
+    transition: width 0.4s ease-in-out;
+}
+.animated-android-textview :hover {
+    width: 100%;
+}
+
+
+/* Select TextView */
+.select-android-textview-blue {
+    background-color: lightblue;
+}
+.select-android-textview-yellow {
+    background-color: yellow;
+}
+.select-android-textview-yellowgreen {
+    background-color: yellowgreen;
+}
+
+
+/* Colored TextView */
+.cyan-textview {
+    background-color: #3CBC8D;
+    color: white;
+}
