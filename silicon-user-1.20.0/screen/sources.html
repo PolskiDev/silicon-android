@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mobilegap/fields/view-text.css">
+    <link rel="stylesheet" href="mobilegap/button/view-glow.css">
+    <link rel="stylesheet" href="mobilegap/button/view-basic.css">
+</head>
+<body>
+    <center>
+        <br><br><br><br><br><br>
+        <h2>Sources</h2><br>
+        <input type="text" placeholder="http://" id="source_url">
+        <br><br>
+        <p id="err"></p>
+        <p><b>Sources:</b></p>
+        <p id="list"></p>
+        <br>
+
+        <button onclick="add_source();" class="mobilegap-green">Add source</button><br><br>
+        <button onclick="remove_source();" class="mobilegap-red">Reset sources</button>
+        <br><br><br>
+    </center>
+    <script src="screen/sources.js"></script>
+</body>
+</html>
