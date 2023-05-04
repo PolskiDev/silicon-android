@@ -11,7 +11,7 @@ Silicon is an alternative App Store for Android based on Cydia and Sileo availab
 Everyone can publish your own APKs on Silicon, by turning your Silicon repository available using **Silicon ServerKit**. You can add multiple URLs to sources, separating them by semi-column.
 
 ### Silicon App Store source-code
-Silicon is a web-based platform, it's source-code is available inside `silicon-user-1.20.0` folder, and it's entry point is `silicon-user-1.20.0/index.html`. Silicon uses PHP and MySQL in the back-end and HTML, CSS, Javascript on the front-end to download packages and use `localStorage` to store URL sources. 
+Silicon is a web-based platform, it's source-code is available inside `silicon-user-1.20.1` folder, and it's entry point is `silicon-user-1.20.1/index.html`. Silicon uses PHP and MySQL in the back-end and HTML, CSS, Javascript on the front-end to download packages and use `localStorage` to store URL sources. 
 
 
 

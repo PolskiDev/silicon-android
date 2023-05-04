@@ -16,7 +16,11 @@ function SearchAPK() {
             let c = window.document.getElementById('found')
 
             //for (let index = 0; index < nodes.length; index++) {
-              if (JSON.parse(nodes)[index].webname == a.value) {
+              if (
+                JSON.parse(nodes)[index].webname == a.value
+                || JSON.parse(nodes)[index].webname.toLowerCase() == a.value.toLowerCase()
+                || JSON.parse(nodes)[index].webname.toUpperCase() == a.value.toUpperCase()
+              ) {
                 let b = `screen/install.html?apk=${JSON.parse(nodes)[index].webname}&icon=${JSON.parse(nodes)[index].iconfile}&version=${JSON.parse(nodes)[index].version_num}&android=${JSON.parse(nodes)[index].android_ver}&dev=${JSON.parse(nodes)[index].developer}&url=${JSON.parse(nodes)[index].weburl}`
                 c.innerHTML = `
                 <center>
